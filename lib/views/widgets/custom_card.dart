@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../models/todo_model.dart';
+
+import '../../models/todo_model.dart';
 
 class TodoCard extends StatelessWidget {
   final TodoModel todo;

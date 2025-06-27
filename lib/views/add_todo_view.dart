@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mt_rapidd_todo/viewModels/todo_view_model.dart';
+import 'package:mt_rapidd_todo/views/widgets/custom_text_field.dart';
+import 'package:mt_rapidd_todo/views/widgets/responsive_layout.dart';
 import 'package:provider/provider.dart';
-import '../widgets/custom_text_field.dart';
-import '../widgets/responsive_layout.dart';
+
 import '../models/todo_model.dart';
 
 class AddTodoView extends StatefulWidget {
